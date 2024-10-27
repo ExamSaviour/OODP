@@ -46,3 +46,17 @@ resource or remote service).
 
 12. Design and Implement a Mediator pattern to manage communication between a set
 of objects (e.g., chat room with multiple participants).
+
+## Software Used
+
+### For Designing : 
+
+<img src="https://staruml.io/image/staruml_logo.png" width="50" />
+
+[StarUml](https://staruml.io/)
+
+### For Execution : 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/800px-IntelliJ_IDEA_Icon.svg.png" width="50" />
+
+[IntelliJ IDEA](https://www.jetbrains.com/idea/)
