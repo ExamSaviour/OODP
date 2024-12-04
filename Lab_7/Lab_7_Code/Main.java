@@ -6,7 +6,7 @@ public class Main {
         Observer consumerObserver = new ConsumerNewsLetterObserver();
 
         newsAgency.registerObserver(companyObserver);
-        newsAgency.registerObserver(companyObserver);
+        newsAgency.registerObserver(consumerObserver);
 
         newsAgency.publishNews("New Product Launch!");
     }
