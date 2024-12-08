@@ -47,6 +47,40 @@ resource or remote service).
 12. Design and Implement a Mediator pattern to manage communication between a set
 of objects (e.g., chat room with multiple participants).
 
+## UML Relations and their meaning
+
+* <u>Association</u> - General relationship between two classes without specifying the nature of relationship.
+
+* <u>Directed</u> Association - Similar to association, but it also gives information about the direction of relationship.
+
+* <u>Aggregation</u> - The relationship where a child can exist independently from the parent. Deleting the parent class will not affect the child's class.
+
+* <u>Dependency</u> - Indicates that one class is dependent on another class.
+
+* <u>Generalization</u> - Generalization is nothing but inheritance. where a class inherits another class.
+
+* <u>Interface Realization</u> - One model depends on another model. For example, interface and class.
+
+## Access Specifier Notations
+
+Access specifiers can be specified at the begining when creating a method or attribute. Ex : "+ getDescription()"
+
+* "+" =  Public
+* "-" =  Private
+* "#" =  Protected
+
+## Points to be Remembered when drawing Class Diagrams
+
+* Return type of any method can be specified after the method name seperated by a colon. Ex : "getData(): int".
+
+* Parameters are passed to the methods where the parameter name is followed by its data type seperated by a colon. Ex: "name: String".
+
+* [x] isAbstract must be ticked to mark a class <b>Abstract</b> and is denoted by Italic Class name in diagram.
+
+* [x] isLeaf must be ticked to mark a method or attribute <b>Final</b>.
+
+* [x] isStatic must be ticked to mark a method or attribute <b>Static</b> and is denoted by underline in diagram.
+
 ## Software Used
 
 ### For Designing : 
